@@ -28911,7 +28911,8 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
       if (hash) {
         src = getGistUrl(hash);
       } else {
-        src = window.location.href + "sample.html";
+        // src = window.location.href + "sample.html";
+        src = "sample/first.html";
       }
     }
     $(document).ajaxError(function() {

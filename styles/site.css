@@ -6042,8 +6042,16 @@ a.badge:hover {
   font-family: 'xkcd';
   font-style: normal;
   font-weight: normal;
-  src: local('xkcd'),url('/fonts/humor-sans.ttf');
+  src: local('xkcd'),url('fonts/humor-sans.ttf');
 }
+
+@font-face {
+  font-family: 'wt071';
+  font-style: normal;
+  font-weight: normal;
+  src: local('wt071'),url('fonts/wt071.ttf');
+}
+
 
 body {
   margin-top: 20px;
@@ -6094,7 +6102,7 @@ section {
   height: 26px;
   white-space:nowrap;
   position: relative;
-  font-family: "xkcd", sans-serif;
+  font-family: "xkcd", "wt071", sans-serif;
   font-size: 14px;
   margin-top: 50px;
   margin-bottom: 20px;
